@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Oblig 1: Oppgave 2</title>
+   <meta charset="UTF-8" />
+   
+   <link rel="stylesheet" type="text/css" href="stiler/oblig2.css" />
+   <link rel="stylesheet" type="text/css" href="stiler/normalize.css" />
+</head>
+<script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=MML_CHTML">
+</script>
+<body>
+   <div id="wrapper">
+      <header>
+		<h1> Oblig 2</h1>
+		<h2> Oppgave 3</h2>
+	  </header>
+	  <nav>
+		<ul>
+		<li><a href="index.html">Hjem</a></li>
+		<li><a href="oppgave3.html">Oppgave 3</li></a>
+		<li><a href="oppgave4.html">Oppgave 4</a>
+			<ul>
+				<li><a href="mathml.html">MathML</a></li>
+				<li><a href="svg.html">SVG</a></li>
+			</ul>
+		</li>
+		<li><a href="oppgave6.html">Oppgave 5 og 6</li></a>
+		</ul>
+	  </nav>
+	  <main>
+		<div class="content">
+			<h2>MathML</h2>
+			<p>MathML(Mathematical Markup Language) er en XML aplikasjon som brukes til å utføre mattestykker på websider. MathML viser både struktur og innhold. Under ser du noen eksempler på bruk av MathML</p>
+			<p>Det er to måter å skrive MathML kode på, og det er XML content og XML presentation. Jeg velger å bruke XML presentation</p>
+			<p>For å utføre MathML trenger du følgende tagger: &ltmath&gt &ltsemantics&gt &ltmrow&gt &ltmsup&gt &ltmn&gt &ltmi&gt &ltmo&gt</p>
+			<p>&ltmath&gt og &ltsemantics&gt blir brukt for å danne et felt der stykket kan utføres, &ltmrow&gt forteller om posijonen i stykket, &ltmsup&gt betyr at det skal være et helt tall, &ltmn&gt er for tall, &ltmi&gt er for bokstaver og &ltmo&gt er for forskjellige operatorer.
+			<p>Her har du eksempel på noen mattefunksjoner og hvordan de skrives med XML presentation. </p>
+			<div class="math">
+			<math>
+			<semantics>
+				<mrow>
+				<mn>3</mn>
+				<msup>
+					<mi>x</mi>
+					<mn>2</mn>
+				</msup>
+				</mrow>
+			</semantics>
+			</math>
+			</div>
+			</td>
+			<td>
+			<p class="math">
+				&ltmath&gt <br />
+				&ltsemantics&gt <br />
+				&ltmrow&gt <br />
+				&ltmn&gt 3 &lt/mn&gt <br />
+				&ltmsup&gt
+					&ltmi&gt x &lt/mi&gt
+					&ltmn&gt 2 &lt/mn&gt
+				&lt/msup&gt <br />
+				&lt/mrow&gt <br />
+				&lt/semantics&gt <br />
+				&lt/math&gt <br />
+			</p>
+			<div class="math">
+			<math>
+			<semantics>
+			<mrow>
+			<mn>3</mn>
+			<msup>
+				<mi>x</mi>
+				<mn>2</mn>
+			</msup>
+			<mo>+</mo>
+			<mi>y</mi>
+			</mrow>
+			</semantics>
+			</math>
+			</div>
+			<p class="math">
+			&ltmath&gt <br />
+			&ltsemantics&gt <br />
+			&ltmrow&gt <br />
+				&ltmn&gt 3 &lt/mn&gt <br />
+			&ltmsup&gt
+				&ltmi&gt x &lt/mi&gt
+				&ltmn&gt 2 &lt/mn&gt
+			&lt/msup&gt <br />
+			&ltmo&gt + &lt/mo&gt <br />
+			&ltmi&gt y &lt/mi&gt <br />
+			&lt/mrow&gt <br />
+			&lt/semantics&gt <br />
+			&lt/math&gt
+			</p>
+			<div class="math">
+			<math>
+			<semantics>
+					<mfrac>
+						<mrow>
+							<mn>3</mn>
+							<msup>
+								<mi>x</mi>
+								<mn>2</mn>
+							</msup>
+						</mrow>
+						<mi>y</mi>
+					</mfrac>
+			</semantics>
+			</math>
+			</div>
+			<p class="math">
+			&ltmath&gt <br />
+			&ltsemantics&gt <br />
+			&ltmfrac&gt <br />
+				&ltmrow&gt <br />
+					&ltmn 3 /mn&gt <br />
+					&ltmsup&gt
+					&lt	mix/mi&gt
+						&ltmn 2 /mn&gt
+					&lt/msup&gt <br />
+				&lt/mrow&gt <br />
+				&ltmi y /mi&gt <br />
+			&lt/mfrac&gt <br />
+			&lt/semantics&gt  <br />
+			&lt/math&gt
+			</p>
+			<div class="math">
+			<math>
+			<semantics>
+					<mfrac>
+						<mrow>
+							<mn>3</mn>
+							<msup>
+								<mi>x</mi>
+								<mn>2</mn>
+							</msup>
+						</mrow>
+						<mfenced>
+						<msup>
+							<mn>2</mn>
+							<mi>y</mi>
+						</msup>
+						</mfenced>
+					</mfrac>
+			</semantics>
+			</math>
+			</div>
+			<p class="math">
+			&ltmath&gt <br />
+			&ltsemantics&gt <br />
+			&ltmfrac&gt <br />
+				&ltmrow&gt <br />
+					&ltmn 3 /mn&gt <br />
+					&ltmsup&gt
+					&lt	mix/mi&gt
+						&ltmn 2 /mn&gt
+					&lt/msup&gt <br />
+				&lt/mrow&gt <br />
+				&ltmfenced&gt
+				&ltmsup&gt
+				&ltmi y &lt/mi&gt <br />
+				&ltmi&gt 2 &lt/mi&gt
+				&lt/msup&gt
+			&lt/mfrac&gt <br />
+			&lt/semantics&gt <br />
+			&lt/math&gt
+		</div>
+	  </main>
+	  <footer>
+		<a href="oppgave3.html">Om denne siden</a>
+	  </footer>
+
+
+
+
+</body>
+
+</html>
