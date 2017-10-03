@@ -102,17 +102,18 @@ img.eksempel {
 	float: left;
 }
 
+img.bilde2 {
+	width:50%;
+	float:left;
+	height:350px;
+}
+
 img.bilde {
 	width: 50%;
 	float:right;
 	box-sizing: border-box;
 	border: 1px solid black;
 	height: 299px;
-}
-
-div.bildetekst {
-	width:50%;
-	float:left;
 }
 
 a:visited {
@@ -160,6 +161,11 @@ table.ODS tr td {
 	width:50%
 }
 
+div.bildetekst {
+	width:50%;
+	float:left;
+}
+
 /*Math ML*/
 
 div.math {
@@ -177,4 +183,11 @@ p.math {
 	height:200px;
 	border: 1px solid black;
 	background-color:white;
+}
+
+/*Git */
+h2.git {
+	width:50%;
+	float:left;
+	text-align:center;
 }
