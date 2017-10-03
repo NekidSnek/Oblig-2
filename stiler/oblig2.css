@@ -20,6 +20,8 @@ h1, h2, h3 {
 	text-align:center;
 }
 
+
+
 nav {
 	grid-area: nav;
 	background-color: #ccbbff;
@@ -67,9 +69,10 @@ main {
 }
 
 div.artikler {
-	width: 33%;
+	width: calc(100%/3);
 	float: left;
 	padding:10px;
+	height: 300px;
 	box-sizing:border-box;
 	border: 1px solid black;
 }
@@ -104,9 +107,16 @@ a {
 	text-decoration: none;
 }
 
+table.Forside {
+	width:100%
+}
+
+table.ODS tr td {
+	width:50%
+}
+
 td {
 	border: 1px solid black;
-	width: 50%;
 	text-align:center
 }
 
