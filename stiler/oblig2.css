@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Kaushan');
 #wrapper {
 	display: grid;
 	margin: 0 auto;
@@ -40,6 +41,10 @@ footer {
 	padding:10px;
 }
 
+h1 {
+	font-family: 'Courgette', cursive;
+}
+
 h1, h2, h3 {
 	text-align:center;
 }
@@ -66,7 +71,7 @@ nav ul li ul li {
 }
 
 li {
-	color: purple;
+	color: blue;
 }
 
 tr:nth-child(2n + 0) {
@@ -87,7 +92,7 @@ div.artikler {
 	width: calc(100%/3);
 	float: left;
 	padding:10px;
-	height: 250px;
+	height: 275px;
 	box-sizing:border-box;
 	border: 1px solid black;
 }
