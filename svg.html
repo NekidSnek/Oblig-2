@@ -24,7 +24,7 @@
 		<li>Oppgave 4
 			<ul>
 				<li><a href="mathml.html">MathML</a></li>
-				<li><a href="svg.html">SVG</a></li>
+				<li><a href="svg class="box".html">svg class="box"</a></li>
 			</ul>
 		</li>
 		<li><a href="oppgave6.html">GitHub</a></li>
@@ -41,41 +41,40 @@
 	  <main>
 		<div class="content">
 			<h2>SVG</h2>
-			<p> SVG(Scalable Vector Graphics) er et XML-basert filformat for 2D vektorgrafikk. Det kan altså blir brukt til å tegne figurer inn på en nettside som er skalerbare. .SVG formatet er derfor veldig nyttig for enkle figurer, logoer og hva nå annet du skulle klart å tegne med det.</p>
-			<p>Fordelen med SVG er at den uendelige skalerbarheten får bildene til å se mye bedre ut som du kan se på bildene under. Bildet til høyre som er SVG er mye klarere enn png filen. Vis du zoomer inn på nettsiden vil forskjellen bli mye tydligere.
+			<p> svg(Scalable Vector Graphics) er et XML-basert filformat for 2D vektorgrafikk. Det kan altså blir brukt til å tegne figurer inn på en nettside som er skalerbare. .svg formatet er derfor veldig nyttig for enkle figurer, logoer og hva nå annet du skulle klart å tegne med det.</p>
+			<p>Fordelen med svg er at den uendelige skalerbarheten får bildene til å se mye bedre ut som du kan se på bildene under. Bildet til høyre som er svg class="box" er mye klarere enn png filen. Vis du zoomer inn på nettsiden vil forskjellen bli mye tydligere.
 			<img class="eksempel" alt="" src="bilder/eksempel.png">
 			<img class="eksempel" alt="" src="bilder/eksempel.svg">
-			
-			<p> Under er det noen eksempler på bruk av SVG figurer.</p>
-		<svg height="100" width="100">
-			<circle cx="50" cy="50" r="50" />
+			<h2>Figurer jeg laget</h2>
+		<div class="svg">
+		<svg class="box" height="150" width="150">
+			<circle cx="75" cy="65" r="50" />
 		</svg>
 
-		<svg width="100" height="100">
-			<rect width="100" height="100" style="fill:rgb(0,0,255);" />
+		<svg class="box" width="100" height="150">
+			<rect x="25" y="15" width="100" height="100" style="fill:rgb(0,0,255);" />
 		</svg>
 		
-		<svg height="100" width="100">
-			<g transform="translate(50 50)">
+		<svg class="box" height="150" width="100">
+			<g transform="translate(75 65)">
 				<ellipse rx="50" ry="25" fill="green" />
 			</g>
 		</svg>
-		<svg height="100" width="100">
-			<g transform="translate(50 50)">
+		<svg class="box" height="150" width="100">
+			<g transform="translate(75 65)">
 				<ellipse rx="25" ry="50" fill="red" />
 			</g>
 		</svg>
-				<svg height="100" width="100">
-			<g transform="translate(50 50)">
+				<svg class="box" height="150" width="100">
+			<g transform="translate(75 65)">
 				<ellipse rx="25" ry="50" fill="red" />
 			</g>
 			
-			<g transform="translate(50 50)">
+			<g transform="translate(75 65)">
 				<ellipse rx="50" ry="25" fill="green" />
 			</g>
 		</svg>
-		<p>Og her er en strekfigur som jeg lagde med SVG</p>
-		<svg height="150" width="150">
+		<svg class="box" height="150" width="150">
 			<line x1="25" y1="25" x2="75" y2="75" style="stroke:rgb(255,0,0);stroke-width:2" />
 			<line x1="125" y1="25" x2="75" y2="75" style="stroke:rgb(255,0,0);stroke-width:2" />
 			<line x1="75" y1="75" x2="75" y2="50" style="stroke:rgb(255,0,0);stroke-width:2" />
@@ -88,6 +87,7 @@
 			<line x1="12" y1="30" x2="31" y2="30" style="stroke:rgb(0,0,0);stroke-width:1" />
 			<line x1="12" y1="35" x2="31" y2="35" style="stroke:rgb(0,0,0);stroke-width:1" />
 		</svg>
+		</div>
 		</div>
 	  </main>
 	  <footer>
